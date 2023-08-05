@@ -1,0 +1,48 @@
+/* Here I am resetting some styles */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+
+  /* Apply styles to the form container */
+  form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+
+  /* Apply styles to the text field container */
+  .text-field {
+    position: relative;
+    width: 200px;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    padding: 10px;
+  }
+
+  /* Apply styles to the label */
+  .text-field label {
+    display: block;
+    color: #128953;
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+
+  /* Apply styles to the input field */
+  .text-field input[type="text"] {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    color: #128953; /* Set the text color */
+  }
+
+  /* Apply styles to the title */
+  .text-field .title {
+    display: block;
+    font-size: 12px;
+    color: #128953;
+    margin-top: 8px;
+  }
